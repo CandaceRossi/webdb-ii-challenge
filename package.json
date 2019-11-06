@@ -1,29 +1,31 @@
 {
-  "name": "node-db2-challenge",
-  "version": "1.0.0",
-  "description": "Node DB 2 Module Challenge",
-  "main": "index.js",
-  "scripts": {
-    "server": "nodemon index.js"
-  },
-  "author": "Lambda School",
-  "devDependencies": {
-    "nodemon": "^1.19.4"
-  },
-  "dependencies": {
-    "express": "^4.17.1",
-    "helmet": "^3.21.2",
-    "knex": "^0.20.1",
-    "sqlite3": "^4.1.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CandaceRossi/webdb-ii-challenge.git"
-  },
-  "keywords": [],
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CandaceRossi/webdb-ii-challenge/issues"
-  },
-  "homepage": "https://github.com/CandaceRossi/webdb-ii-challenge#readme"
+    "name": "node-db2-challenge",
+    "version": "1.0.0",
+    "description": "Node DB 2 Module Challenge",
+    "main": "index.js",
+    "scripts": {
+        "server": "nodemon index.js"
+    },
+    "author": "Lambda School",
+    "devDependencies": {
+        "nodemon": "^1.19.4",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "env": "^0.0.2",
+        "express": "^4.17.1",
+        "helmet": "^3.21.2",
+        "knex": "^0.20.1",
+        "sqlite3": "^4.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CandaceRossi/webdb-ii-challenge.git"
+    },
+    "keywords": [],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/CandaceRossi/webdb-ii-challenge/issues"
+    },
+    "homepage": "https://github.com/CandaceRossi/webdb-ii-challenge#readme"
 }
